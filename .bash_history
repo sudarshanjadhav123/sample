@@ -11,3 +11,16 @@ mkdir help
 cd help
 cd .
 cd ..
+sudo yum install git
+touch f1.py
+nano f1.py
+git init
+git branch -M main
+git 
+git checkout
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git branch
+git remote add origin https://github.com/sudarshanjadhav123/sample.git
+git push -u origin main
